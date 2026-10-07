@@ -5,6 +5,15 @@ description: Use BEFORE adding a value, list, enum, option set, limit or default
 
 # One home per piece of knowledge
 
+This skill owns one architectural rule: duplicated knowledge. For the method of designing or
+reviewing a whole system or feature (requirement in the user's words, operating profile, lifetimes
+and owners, the invariant, exchanges that end explicitly, rollout that reaches running code, the
+comparative decision case, checks before building) load `architecture-foundations`, which routes
+here for this rule. On 2026-10-07 we used this skill to judge the journal-versus-ledger split in the
+Concierge agent-work design; with Astra we found the rule applies as written (the ledger owns
+obligations and cursors, the journal owns observations, and the journal never independently settles
+an obligation), and that the rest of the review needed a broader skill, which is why that one exists.
+
 **DRY is about knowledge, not about text.** Hunt and Thomas wrote it as *"every piece of
 knowledge must have a single, unambiguous, authoritative representation within a system"*.
 Two functions that happen to look alike are not a violation. Two places that both have to be
