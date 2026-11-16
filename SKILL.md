@@ -60,6 +60,26 @@ fix the ones that have already drifted. For copies you are not fixing now, **wri
 somewhere durable with a reason.** A known duplicate is survivable; an unknown one is what
 reaches his screen.
 
+### An action catalogue follows the object across surfaces
+
+An action list shared across phone and laptop is still duplicated knowledge if each page,
+row, preview or window chooses its own subset. Give the object's actions one catalogue and
+controller; presenters choose frequent shortcuts, while their visible menu exposes the complete
+applicable set. Editing windows load their own required metadata and destinations when opened,
+rather than depending on another page having loaded them. Enforce known entrances and reject
+local action catalogues with the existing architecture check. Observe the missing action on the
+installed surface, then exercise each entrance and an independent open observer after repair.
+
+Incident, November 16, 2026: thnkr.ing had Rename, Move, Split and Merge only inside its Inbox
+conversation's inline panel. Rows offered their own smaller list; floating conversations had no
+Move/Merge destinations. The installed marked row menu reproduced the omission. Whether the
+original Mac screenshot also involved clipping remains unknown. His corrected report said:
+"How can a thread option exist in one place and not on any other page? Fix this comprehensively
+so it never happens again." Source: capture
+`7a425975be82ec6cc58e273715223541bfd4040362533690c84f8f92f02bae60`, thnkr.ing failure case
+`thinkering-thread-options-only-in-conversation`. Said before: yes, the single action-list rule
+covered rooms; the missing invariant was the same object on different surfaces.
+
 ## The incident this came from
 
 On 2026-09-23, Concierge adopted Claude Opus 5.5. thnkr.ing's new-session picker went on
